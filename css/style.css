@@ -1,0 +1,61 @@
+body {
+    color: white;
+    background: black; 
+    font-family: "Lucida Grande", sans-serif;
+  /* make default text is Lucida Grande font with a sans-serif as a fallback option. All text is white with a black background. */
+}
+h1{
+    font-size: 64px; 
+    text-align: center;
+  /* Header 1 is 64px, centered */
+}
+h2{ font-size: 30px; 
+    text-shadow: 5px 5px 2px #808080;
+  /* Header 2 is 30px, with grey (#808080) drop shadow that is offset 5px horizontally, 
+  5px vertically, and 2px blur */
+}
+p{
+    font-size: 24px;
+    padding-top: 20px;
+  /* paragraphs use 24px font and have 20px padding on the top only */
+}
+img{display: block;
+    margin: auto;
+    width: 525px; 
+    height: auto; 
+    /* style for images */
+} 
+
+div{
+  min-height: 150px;
+  padding: 25px 25px 25px 25px; 
+  /*All divs must be at least 150px tall (but will automatically be taller if needed) with 25px padding on all sides.*/
+}
+
+#red{
+    background: red; 
+    text-align: right;
+}
+#blue{
+    background: blue;
+    text-align: left; 
+}
+#yellow{ 
+    background: yellow; 
+    color: black;
+    text-align: right;
+}
+#yellow h2{
+    color: black; 
+    text-shadow: #c7e2c7;
+}
+#green{
+    background: green; 
+    text-align: left; 
+}
+footer p{ 
+    text-align: right; 
+    padding-bottom: 10px;
+    padding-right: 10px;
+  /* Footer text is right-aligned with 10px padding on the bottom and right only*/
+}
